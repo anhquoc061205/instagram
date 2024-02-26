@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login {
+  width: 100w;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+}
+.login .login_left {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .login_right {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  background-image: url("https://images2.thanhnien.vn/thumb_w/686/528068263637045248/2023/12/20/0ecb9f73-3881-43e9-b82e-48a4c58582a8-17030728744541560038843-0-1000-1333-2000-crop-1703072911105627810056.jpeg");
+  background-size: cover;
+}
+.login .login_form h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.login .login_form .button {
+  display: flex;
+  gap: 20px;
+}
+.login .login_form .button button {
+  padding: 22px 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid 1px lightgray;
+}/*# sourceMappingURL=index.css.map */
